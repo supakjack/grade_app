@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:textSize="60dp"
+        android:gravity="center"
+        android:textColor="#303F9F"
+        android:text="ISERL" />
+    <LinearLayout
+        android:layout_marginTop="335dp"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:orientation="vertical"
+        android:background="#3F51B5">
+    </LinearLayout>
+
+    <EditText
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="390dp"
+        android:id="@+id/user_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="#FFFFFF"
+        android:hint="Username" />
+
+
+    <Button
+        android:layout_marginTop="260dp"
+        android:id="@+id/btnNextPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_gravity="center"
+        android:text="login" />
+
+    <EditText
+        android:id="@+id/pass_input"
+        android:background="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="460dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword" />
+
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/iser_logo" />
+
+
+
+
+</FrameLayout>
